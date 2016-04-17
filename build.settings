@@ -1,0 +1,26 @@
+-- build.settings for project: Business Apps - linePrinter
+-- Managed with http://CoronaProjectManager.com
+-- Copyright 2012 J. A. Whye. All Rights Reserved.
+-- cpmgen build.settings
+settings =
+{
+	orientation =
+	{
+		default ="portrait",
+		supported =
+		{
+			"portrait","portraitUpsideDown"
+		},
+	},
+
+	iphone =
+	{
+		plist =
+		{
+			UIAppFonts = {"FontNameHere,AndAnotherIfYouLike"},
+			UIApplicationExitsOnSuspend = true,
+			UIPrerenderedIcon = true
+		},
+	},
+
+}
